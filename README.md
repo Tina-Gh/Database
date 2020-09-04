@@ -1,3 +1,3 @@
-# SQL
+# Database
 
-SQL codes
+My Database (SQL & MySQL) codes
