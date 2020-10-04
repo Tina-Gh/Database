@@ -1,4 +1,4 @@
-The SQL syntax file (updating...)
+The SQL syntax: (updating...)
 
 <hr>
 
