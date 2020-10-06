@@ -1,4 +1,4 @@
-The SQL syntax: (updating...)
+The SQL Syntax: (Continuously Updating...)
 
 <hr>
 
