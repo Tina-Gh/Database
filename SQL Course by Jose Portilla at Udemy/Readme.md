@@ -2,6 +2,6 @@
 
 <ul>
   <li>pgAdmin 4</li>
-  <li>postgresql</li>
+  <li>PostgreSQL</li>
 </ul>
 <hr>
