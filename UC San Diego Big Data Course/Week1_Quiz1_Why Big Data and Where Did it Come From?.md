@@ -14,6 +14,7 @@
   <br>
   <br>
   
+  
    <li><strong>What reasoning was given for the following: why is the "data storage to price ratio" relevant to big data?</strong></li>
   <ul>
     <li><strong>Lower prices mean larger storage becomes easier to access for everyone, creating bigger amounts of data for client-facing services to work with.</strong></li>
@@ -70,7 +71,7 @@
   <li><strong>What are the three types of diverse data sources?</strong></li>
   <ul>
     <li>Information Networks, Map Data, and People</li>
-    <li><strong>Machine Data, Organizational Data, and People</stroong></li>
+    <li><strong>Machine Data, Organizational Data, and People</strong></li>
     <li>Sensor Data, Organizational Data, and Social Media</li>
     <li>Machine Data, Map Data, and Social Media</li>
   </ul>
