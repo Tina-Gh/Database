@@ -191,7 +191,7 @@
     <li>Highly unstructured data. Bad because it does not provide meaningful results for organizations.</li>
     <li><strong>Data produced from an organization that is spread out. Bad because it creates unsynchronized and invisible data.</strong></li>
     <li>A giant centralized database to house all the data produces within an organization. Bad because it is hard to maintain as highly structured data.</li>
-    <li><strong>A giant centralized database to house all the data production within an organization. Bad because it hinders opportunity for data generation.</strong></li>
+    <li>A giant centralized database to house all the data production within an organization. Bad because it hinders opportunity for data generation.</li>
   </ul>
   <br>
   <br>
