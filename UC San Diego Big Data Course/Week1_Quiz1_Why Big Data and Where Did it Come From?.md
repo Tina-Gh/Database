@@ -12,7 +12,7 @@
     <li>The Internet</li>
   </ul>
   <br>
-  
+  <br>
   
    <li><strong>What reasoning was given for the following: why is the "data storage to price ratio" relevant to big data?</strong></li>
   <ul>
@@ -21,6 +21,7 @@
     <li>Larger storage means easier accessibility to big data for every user because it allows users to download in bulk.</li>
     <li>It isn't, it was just an arbitrary example of big data usage.</li>
   </ul>
+  <br>
   <br>
   
   
