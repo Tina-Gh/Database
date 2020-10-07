@@ -6,7 +6,7 @@
 </ul>
 <hr>
 
-<strong>*</strong> Notes:
+<strong>*  Notes:</strong>
 
 The guidelines to work in pgAdmin environment is:
 
