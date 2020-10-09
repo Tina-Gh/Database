@@ -1,0 +1,46 @@
+(Section 3 Challenge task _ Part 34):
+(from "dvdrental.tar" file):
+
+...................................................................
+
+(1) What is the number of customers for each store that has more than 300 customers?
+
+
+SELECT store_id, COUNT(customer_id) FROM customer ---> or COUNT(*)
+GROUP BY store_id
+HAVING COUNT(customer_id) > 300; ---> or COUNT(*)
+
+>> 1	326
+
+...................................................................
+
+(2) We are launching a platinum service for our most loyal customers. We will assign
+platinum status to customers that have had 40 or more transaction payments.
+What customer_ids are eligible for platinum status?
+
+
+SELECT customer_id, COUNT(payment_id) FROM payment ---> or COUNT(*)
+GROUP BY customer_id
+HAVING COUNT(payment_id) >= 40; ---> or COUNT(*)
+
+
+>> 144	40
+>> 526	42
+>> 148	45
+
+...................................................................
+
+(3) What are the customer ids of customers who have spent more than 100$ in payment transactions
+with our staff_id member 2?
+
+
+SELECT customer_id, SUM(amount) FROM payment
+WHERE staff_id = 2
+GROUP BY customer_id
+HAVING SUM(amount) > 100;
+
+>> 187	110.81
+>> 522	102.80
+>> 526	101.78
+>> 211	108.77
+>> 148	110.78
