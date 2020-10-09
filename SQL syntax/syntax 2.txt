@@ -1,0 +1,36 @@
+(Section 3):
+********************************************************************************
+
+(Aggregate functions):
+
+SELECT MIN(c1) FROM tbl;
+SELECT MAX(c1) FROM tbl;
+SELECT MIN(c1), MIN(c2), ... FROM tbl;
+
+
+SELECT AVG(c1) FROM tbl;
+SELECT ROUND(AVG(c1), num_wanted_floating_decimals) FROM tbl;
+
+
+SELECT SUM(c1) FROM tbl;
+
+********************************************************************************
+
+(GROUP BY statements):
+
+SELECT catagory_col, AGG(c1) FROM tbl GROUP BY catagory_col
+SELECT catagory_col, AGG(c1) FROM tbl WHERE .. GROUP BY catagory_col (!: WHERE .. # AGG(c1) (exept if we use HAVING clause.))(!: catagory_col -> AGG(c1) or GROUP BY catagory_col)
+SELECT catagory_col, AGG(c1) FROM tbl GROUP BY catagory_col ORDER BY c2 (!: if we want to ORDER BY AGG(c1). NOT just c1!)
+
+SELECT DATE(c1) FROM tbl; (!: c1 is dates.)(the output removes the time stamp. and it only keeps the date.)
+
+********************************************************************************
+
+(HAVING clauses):
+
+
+SELECT catagory_col, AGG(c1) FROM tbl WHERE .. GROUP BY catagory_col HAVING AGG(c1) ..
+
+
+
+
