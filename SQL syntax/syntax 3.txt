@@ -1,0 +1,32 @@
+(Section 5):
+(Joins):
+(Help: https://www.datacamp.com/community/tutorials/introduction-to-sql-joins)
+********************************************************************************
+
+(AS:)
+SELECT c1 AS new_name FROM tbl; (!: AS operator gets executed at the very end of a quesry! -> we can NOT use it in the WHERE .. or the HAVING  statement.)
+SELECT AGG(c1) AS new_name FROM tbl;
+
+
+(INNER JOIN:)
+SELECT * FROM tbl1 INNER JOIN tbl2 ON tbl1.c_match = tbl2.c_match (!: match in both tabls.) --> or JOIN
+
+
+(OUTER JOIN: -> FULL OUTER JOIN)
+SELECT * FROM tbl1 FULL OUTER JOIN tbl2 ON tbl1.c_match = tbl2.c_match (!: match in both tabls. BUT, the non-match parts become null!)
+SELECT * FROM tbl1 FULL OUTER JOIN tbl2 ON tbl1.c_match = tbl2.c_match WHERE ... (ex: WHERE tbl1.c2 IS null OR tbl2.c3 IS null -> rows that are not found in both tbls!)
+
+
+(OUTER JOIN: -> LEFT OUTER JOIN --> or LEFT JOIN)
+SELECT * FROM tbl1 LEFT OUTER JOIN tbl2 ON tbl1.c_match = tbl2.c_match; (order of tbl1 and tbl2 matter!)
+SELECT * FROM tbl1 LEFT OUTER JOIN tbl2 ON tbl1.c_match = tbl2.c_match WHERE tbl1.c1 IS null; (if we want to say NOT in tbl2: c1=c_match)
+
+
+(OUTER JOIN: -> RIGHT OUTER JOIN --> or RIGHT JOIN)
+SELECT * FROM tbl1 RIGHT OUTER JOIN tbl2 ON tbl1.c_match = tbl2.c_match;
+SELECT * FROM tbl1 LEFT OUTER JOIN tbl2 ON tbl1.c_match = tbl2.c_match WHERE tbl1.c1 IS null; (if we want to say NOT in tbl2: c1=c_match)
+
+
+(UNION:)
+(SELECT col_name(s) FROM tbl1) UNION (SELECT col_name(s) FROM tbl2)
+ORDER BY ..
