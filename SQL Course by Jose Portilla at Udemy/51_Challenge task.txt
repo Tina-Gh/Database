@@ -1,0 +1,29 @@
+(Section 6 Challenge task _ Part 51):
+(from "dvdrental.tar" file):
+
+...................................................................
+
+(1) During which months did payments occur?
+Format your answer to return back the full month name.
+
+
+SELECT DISTINCT(TO_CHAR(payment_date, 'Month')) FROM payment
+
+>> May
+>> March
+>> February
+>> April
+...................................................................
+
+(2) How many payments occurred on a Monday?
+
+
+SELECT COUNT(*) FROM payment
+WHERE TO_CHAR(payment_date, 'D') = '2'
+
+or :
+
+SELECT COUNT(*) FROM payment
+WHERE EXTRACT(dow FROM payment_date) = 1
+
+>> 2948
