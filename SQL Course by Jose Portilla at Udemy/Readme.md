@@ -8,7 +8,7 @@
 
 <strong>*  Notes:</strong>
 
-The guidelines to work in pgAdmin environment:
+The guidelines to set up and work in pgAdmin environment:
 
 <ol>
   <li><strong>For the first time:</strong> Servers -> PostgreSQL ->(after right clicking) Create -> Database -> Then upload your file (ex: .tar)</li>
