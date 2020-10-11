@@ -1,0 +1,48 @@
+(Section 6):
+(Advanced SQL):
+(PostgreSQL Documentation: https://www.postgresql.org/docs/)
+********************************************************************************
+
+(Time now!:)
+SHOW ALL
+SHOW TIMEZONE
+SELECT NOW() (: outputs the timestamptz)
+SELECT TIMEOFDAY() (: ~ ~ but the date is in string)
+SELECT CURRENT_TIME
+SELECT CURRENT_DATE
+
+
+(Extract Time from database:)
+SELECT EXTRACT(YEAR FROM c_date) [AS ..] FROM tbl (!: or YEAR or MONTH or DAY or QUARTER)
+SELECT AGE(c_date) FROM tbl
+SELECT TO_CHAR(c_date, 'mm-dd-yyyy') FROM tbl (!patterns: or 'mm-dd-yyyy' or 'MONTH-YYYY') (!More: https://www.postgresql.org/docs/13/functions-formatting.html)
+
+
+(Math Operations:)
+/, *, AVG(c1), ROUND(c1, num_floating_points), ... (!More help: https://www.postgresql.org/docs/13/functions-math.html)
+
+
+(String Operations:)
+LENGTH(c_str), ||, UPPER(c_str), INITCAP(c_str), LEFT(c_str, num) (!Help: https://www.postgresql.org/docs/9.5/functions-string.html)
+
+
+(SubQuery: -> 2 SELECT s -> use () for subquery -> and the subquery returns back value(s), not a column! -> if the subquery returns back multiple values, we must use "IN"!)
+-> >, <, ...
+-> IN -> SELECT c1,... FROM tbl1 WHERE c1 IN (SELECT c2 FROM tbl2 WHERE ..);
+-> EXISTS -> SELECT c1 FROM tbl1 WHERE EXISTS (SELECT c2 FROM tbl2 WHERE ..);
+-> NOT EXISTS
+
+(ex: 
+SELECT title FROM film
+WHERE film_id IN (SELECT film_id 
+FROM rental INNER JOIN inventory
+ON inventory.inventory_id = rental.inventory_id
+WHERE return_date BETWEEN '2005-05-29' AND '2005-05-30')
+ORDER BY title;
+)
+
+(ex:
+SELECT first_name , last_name FROM customer
+WHERE EXISTS (SELECT * From payment
+WHERE customer.customer_id = payment.customer_id 
+AND amount > 11)

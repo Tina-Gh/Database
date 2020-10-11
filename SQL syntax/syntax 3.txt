@@ -8,8 +8,8 @@ SELECT c1 AS new_name FROM tbl; (!: AS operator gets executed at the very end of
 SELECT AGG(c1) AS new_name FROM tbl;
 
 
-(INNER JOIN:)
-SELECT * FROM tbl1 INNER JOIN tbl2 ON tbl1.c_match = tbl2.c_match (!: match in both tabls.) --> or JOIN
+(INNER JOIN: -> JOIN)
+SELECT * FROM tbl1 INNER JOIN tbl2 ON tbl1.c_match = tbl2.c_match (!: match in both tabls.)
 
 
 (OUTER JOIN: -> FULL OUTER JOIN)
@@ -30,3 +30,7 @@ SELECT * FROM tbl1 LEFT OUTER JOIN tbl2 ON tbl1.c_match = tbl2.c_match WHERE tbl
 (UNION:)
 (SELECT col_name(s) FROM tbl1) UNION (SELECT col_name(s) FROM tbl2)
 ORDER BY ..
+
+
+(SELF JOIN: -> use alias)
+SELECT tbl1.c1, tbl2.c2 FROM tbl AS tbl1 JOIN tbl AS tbl2 ON tbl1.some_col = tbl2.other_col
