@@ -21,16 +21,17 @@
 ### 3. What are the steps required for data analysis?
 
 - Investigate, Build Model, Evaluate
-- Classification, Regression, Analysis
-- Regression, Evaluate, Classification
 - **Select Technique, Build Model, Evaluate**
+- Regression, Evaluate, Classification
+- Classification, Regression, Analysis
+
 
 ### 4. Of the following, which is a technique mentioned in the videos for building a model?
 
 - Investigation
-- Validation
 - Evaluation
 - **Analysis**
+- Validation
 
 ### 5. What is the first step in finding a right problem to tackle in data science?
 
@@ -42,35 +43,36 @@
 ### 6. What is the first step in determining a big data strategy?
 
 - **Business Objectives**
-- Collect Data
 - Build In-House Expertise
 - Organizational Buy-In
+- Collect Data
 
 ### 7. According to Ilkay, why is exploring data crucial to better modeling?
 
 Data exploration... <complete the sentence>
 
 - **leads to data understanding which allows an informed analysis of the data.**
-- enables a description of data which allows visualization.
-- enables understanding of general trends, correlations, and outliers.
 - enables histograms and others graphs as data visualization.
+- enables understanding of general trends, correlations, and outliers.
+- enables a description of data which allows visualization.
 
 
 ### 8. Why is data science mainly about teamwork?
 
+- **Data science requires a variety of expertise in different fields.**
 - Analytic solutions are required.
 - Engineering solutions are preferred.
-- **Data science requires a variety of expertise in different fields.**
 - Exhibition of curiosity is required.
 
 
 ### 9. What are the ways to address data quality issues?
 
-- **Remove outliers.**
-- **Generate best estimates for invalid values.**
-- **Remove data with missing values.**
 - Data Wrangling
 - **Merge duplicate records.**
+- **Remove outliers.**
+- **Remove data with missing values.**
+- **Generate best estimates for invalid values.**
+
 
 ### 10. What is done to the data in the preparation stage?
 
@@ -78,4 +80,4 @@ Data exploration... <complete the sentence>
 - Select Analytical Techniques
 - Build Models
 - Identify Data Sets and Query Data
-- **Understanding Nature of Data and Preliminary Analysis**
+- **Cleaning, Integrating, and Packaging**
