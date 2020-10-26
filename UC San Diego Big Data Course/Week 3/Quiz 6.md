@@ -6,8 +6,12 @@
 
 Enter a number:
 
+>> 
+
 <strong>2.</strong> The set of example MapReduce applications includes wordmedian, which computes the median length of words in a text file. If you run wordmedian using words.txt (the Shakespeare text) as input, what is the median word length?
 
 Note that wordmedian prints the median length to the terminal at the end of the MapReduce job; the output file does not contain the median length.
 
 Enter a number:
+
+>> 
