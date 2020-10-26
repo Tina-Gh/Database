@@ -1,6 +1,6 @@
 ## Hadoop codes:
 
-The data is MIT's Shakespeare text file from <a href="https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt" target="_blank">this link</a>.
+The data is MIT's complete works Shakespeare from <a href="https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt" target="_blank">this link</a>!
 
 <ul>
 <li>In the Course website -> Week 3 -> <a href="https://www.coursera.org/learn/big-data-introduction/supplement/pGbsq/downloading-and-installing-the-cloudera-vm-instructions-windows" target="_blank">Part 1</a>: Open "Oracle VM VirtualBox" and inside, open "Cloudera" (section: Downloading and Installing the Cloudera VM Instructions (Windows))</li>
