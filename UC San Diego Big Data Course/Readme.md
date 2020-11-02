@@ -1,1 +1,0 @@
-UCSD Big data course
