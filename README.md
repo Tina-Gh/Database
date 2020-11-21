@@ -1,3 +1,3 @@
 # Database
 
-My Database (SQL) + Big Data codes
+My Database (SQL) codes and queries
