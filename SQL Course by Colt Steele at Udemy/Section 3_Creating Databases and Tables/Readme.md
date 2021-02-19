@@ -1,5 +1,7 @@
 # Section 3
 
+Slides available at <a href="http://webdev.slides.com/coltsteele/mysql-97-98#/2" target="_blank">This link</a>.
+
 <hr>
 
 ## Code: Creating Databases
