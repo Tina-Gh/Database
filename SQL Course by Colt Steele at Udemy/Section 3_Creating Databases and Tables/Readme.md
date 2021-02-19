@@ -2,7 +2,7 @@
 
 <hr>
 
-## CODE: Creating Databases
+## Code: Creating Databases
 
 - Start the CLI:
 
