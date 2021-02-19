@@ -8,11 +8,11 @@ Creating Databases Code Start the CLI:
 
   mysql-ctl cli; 
 
-**List available databases:
+** List available databases:
 
   show databases; 
 
-**The general command for creating a database:
+** The general command for creating a database:
 
 CREATE DATABASE database_name; 
 
