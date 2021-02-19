@@ -1,4 +1,4 @@
-# Section 3
+# Section 3: Creating Databases and Tables
 
 Slides are available at <a href="http://webdev.slides.com/coltsteele/mysql-97-98#/2" target="_blank">This link</a>.
 
