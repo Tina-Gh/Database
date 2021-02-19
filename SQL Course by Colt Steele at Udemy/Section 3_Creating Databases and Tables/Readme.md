@@ -4,7 +4,7 @@
 
 ## CODE: Creating Databases
 
-- Creating Databases Code Start the CLI:
+- Start the CLI:
 
   mysql-ctl cli; 
 
