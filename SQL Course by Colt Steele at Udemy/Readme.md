@@ -6,3 +6,5 @@
 
 - Install <a href="https://www.mysql.com/" target="_blank">MySQL</a> for your local PC
 
+- My cloud Goorm IDE <a href="https://ide.goorm.io/my/dashboard" target="_blank">dashboad</a>
+
