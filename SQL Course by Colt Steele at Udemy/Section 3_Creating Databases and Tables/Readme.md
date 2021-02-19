@@ -4,7 +4,7 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/mysql-97-98
 
 <hr>
 
-## Code: Creating Databases
+## 1. Code: Creating Databases
 
 - Start the CLI:
 
