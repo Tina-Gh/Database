@@ -21,3 +21,29 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/mysql-97-98
 - A specific example:
 
   CREATE DATABASE soap_store;
+  
+  
+## 2. Code: Dropping Databases
+
+-To drop a database:
+  
+  DROP DATABASE database_name; 
+
+- For Example:
+
+  DROP DATABASE hello_world_db; 
+
+  <em>!: Remember to be careful with this command! Once you drop a database, it's gone!<em>
+
+
+## 3. Code: Using Databases
+
+- To use a database:
+
+  USE <database name>;
+ 
+- example:
+
+  USE dog_walking_app;
+ 
+  SELECT database();
