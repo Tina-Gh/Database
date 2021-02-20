@@ -25,15 +25,15 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/mysql-97-98
   
 ## 2. Code: Dropping Databases
 
--To drop a database:
+- To drop a database:
   
   DROP DATABASE database_name; 
 
-- For Example:
+- example:
 
   DROP DATABASE hello_world_db; 
 
-  <em>!: Remember to be careful with this command! Once you drop a database, it's gone!<em>
+  <em>!: Remember to be careful with this command! Once you drop a database, it's gone!</em>
 
 
 ## 3. Code: Using Databases
