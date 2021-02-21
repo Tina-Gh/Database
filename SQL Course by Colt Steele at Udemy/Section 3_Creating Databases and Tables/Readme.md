@@ -96,3 +96,14 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
   DROP TABLE cats; 
 
 <em>!: Be careful with this command!</em>
+
+
+## 7. Inserting Data:
+
+- The "formula":
+
+  INSERT INTO table_name(column_name) VALUES (data);
+
+- For example:
+
+  INSERT INTO cats(name, age) VALUES ('Jetson', 7);
