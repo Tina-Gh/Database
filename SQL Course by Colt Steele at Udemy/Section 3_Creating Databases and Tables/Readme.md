@@ -49,3 +49,12 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/mysql-97-98
   USE dog_walking_app;
  
   SELECT database();
+
+
+## 4. Tables: 
+ 
+- SHOW TABLES;
+
+- SHOW COLUMNS FROM tablename;
+ 
+- DESC tablename;
