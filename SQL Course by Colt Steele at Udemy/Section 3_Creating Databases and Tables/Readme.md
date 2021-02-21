@@ -58,3 +58,14 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
 - SHOW COLUMNS FROM tablename;
  
 - DESC tablename;
+
+
+## 5. Dropping Tables:
+
+- DROP TABLE <tablename>; 
+
+- A specific example:
+
+DROP TABLE cats; 
+
+<em>!: Be careful with this command!</em>
