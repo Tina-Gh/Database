@@ -107,3 +107,10 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
 - For example:
 
   INSERT INTO cats(name, age) VALUES ('Jetson', 7);
+  
+  
+  ## 8. Select:
+  
+  - The "query":
+
+    SELECT * FROM cats; 
