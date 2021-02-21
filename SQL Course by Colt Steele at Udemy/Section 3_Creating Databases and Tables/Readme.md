@@ -111,6 +111,6 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
   
   ## 8. Select:
   
-  - The "query":
-
-    SELECT * FROM cats; 
+ - The "query":
+  
+  SELECT * FROM cats; 
