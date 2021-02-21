@@ -51,7 +51,26 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
   SELECT database();
 
 
-## 4. Tables: 
+## 4. Create Tables:
+
+- Create table:
+
+  CREATE TABLE tablename
+  (
+    column_name data_type,
+    column_name data_type
+  );
+
+- Example:
+
+  CREATE TABLE cats
+  (
+    name VARCHAR(100),
+    age INT
+  );
+
+
+## 5. Show Tables: 
  
 - SHOW TABLES;
 
@@ -60,7 +79,7 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
 - DESC tablename;
 
 
-## 5. Dropping Tables:
+## 6. Dropping Tables:
 
 - DROP TABLE <tablename>; 
 
