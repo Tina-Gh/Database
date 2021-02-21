@@ -56,17 +56,25 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
 - Create table:
 
   CREATE TABLE tablename
+  
   (
+  
     column_name data_type,
+    
     column_name data_type
+    
   );
 
 - Example:
 
   CREATE TABLE cats
+  
   (
+  
     name VARCHAR(100),
+    
     age INT
+    
   );
 
 
