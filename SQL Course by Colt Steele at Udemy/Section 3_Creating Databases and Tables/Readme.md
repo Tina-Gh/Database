@@ -66,6 +66,6 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
 
 - A specific example:
 
-DROP TABLE cats; 
+  DROP TABLE cats; 
 
 <em>!: Be careful with this command!</em>
