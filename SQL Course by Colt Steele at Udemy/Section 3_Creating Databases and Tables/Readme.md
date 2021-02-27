@@ -114,3 +114,32 @@ Slides are available at <a href="http://webdev.slides.com/coltsteele/" target="_
 - The "query":
 
   SELECT * FROM cats; 
+  
+  
+## 9. Multiple Insert:
+
+- The code:
+
+  INSERT INTO table_name (column_name, column_name) 
+  
+  VALUES(value, value), 
+  
+        (value, value), 
+        
+        (value, value);
+
+
+## 10. Show Warnings:
+
+- SHOW WARNINGS;
+
+
+## 11. NULL and NOT NULL:
+
+- CREATE TABLE cats2(
+
+    name VARCHAR(100) NOT NULL,
+    
+    age INT NOT NULL
+    
+  );
