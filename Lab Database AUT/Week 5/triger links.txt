@@ -1,0 +1,11 @@
+[microsoft]:
+https://docs.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver15
+
+
+
+[other]:
+https://www.aspsnippets.com/Articles/Simple-Insert-Update-and-Delete-Triggers-in-SQL-Server-with-example.aspx
+
+
+
+
