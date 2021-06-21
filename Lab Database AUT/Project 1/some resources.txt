@@ -1,0 +1,11 @@
+https://pythontic.com/database/redis/hash%20-%20add%20and%20remove%20elements
+
+https://stackoverflow.com/questions/32276493/how-to-store-and-retrieve-a-dictionary-with-redis
+
+http://www.awongcm.io/blog/2018/01/20/made-url-shortener-tool-using-python-slash-redis/
+
+https://redis-py.readthedocs.io/en/stable/search.html?q=dashboard&check_keywords=yes&area=default#
+
+https://realpython.com/python-redis/
+
+
