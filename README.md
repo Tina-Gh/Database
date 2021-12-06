@@ -11,10 +11,10 @@ My Database (SQL) codes and queries
   <li>DROP DATABASE IF EXISTS book_shop;</li>
   <li>CREATE DATABASE book_shop;</li>
   <li>USE book_shop; </li>
-  <li>CREATE TABLE books</li>
-  <li></li>
-  <li></li> 
-  <li></li> 
+  <li>create the tables and insert data</li>
+  <li>Then source that file: source book_data.sql</li>
+  <li>Now check your work: DESC books;</li>  
+  <li>select queries and stuff</li> 
 </ul>
 
 ## GoormIDE (Cloud-based):
