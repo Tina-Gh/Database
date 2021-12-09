@@ -19,3 +19,9 @@ The guidelines to set up and work in pgAdmin environment:
 
 <a href="https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/" target="_blank">Joins</a> 
 
+<a href="https://www.postgresql.org/docs/12/functions-string.html" target="_blank">String Functions and Operators</a>
+
+<a href="https://www.postgresql.org/docs/12/functions-datetime.html" target="_blank">Date/Time Functions and Operators</a>
+
+<a href="https://www.postgresql.org/docs/12/functions-formatting.html" target="_blank">Data Type Formatting Functions</a>
+
